@@ -1,6 +1,5 @@
-// Cambia esta URL por la IP pública de tu EC2 cuando la tengamos
-const API_URL = "http://IP_PUBLICA_EC2:8000";
 
+const API_URL = "http://98.81.149.232:8000";
 const form = document.getElementById("shorten-form");
 const urlInput = document.getElementById("url-input");
 const submitBtn = document.getElementById("submit-btn");
